@@ -122,22 +122,22 @@ public class Sentences {
             case "ARI":
                 ARI = computeARIScore();
                 ageARI = getAgeRange(ARI);
-                System.out.printf("Automated Readability Index: %.2f (about %d-year-olds).", ARI, ageARI);
+                System.out.printf("Automated Readability Index: %.2f (about %d-year-olds).\n", ARI, ageARI);
                 break;
             case "FK":
                 FK = computeFKScore();
                 ageFK = getAgeRange(FK);
-                System.out.printf("Flesch-Kincaid readability tests: %.2f (about %d-year-olds).", FK, ageFK);
+                System.out.printf("Flesch-Kincaid readability tests: %.2f (about %d-year-olds).\n", FK, ageFK);
                 break;
             case "SMOG":
                 SMOG = computeSMOGScore();
                 ageSMOG = getAgeRange(SMOG);
-                System.out.printf("Simple Measure of Gobbledygook: %.2f (about %d-year-olds).", SMOG, ageSMOG);
+                System.out.printf("Simple Measure of Gobbledygook: %.2f (about %d-year-olds).\n", SMOG, ageSMOG);
                 break;
             case "CL":
                 CL = computeCLScore();
                 ageCL = getAgeRange(CL);
-                System.out.printf("Coleman-Liau index: %.2f (about %d-year-olds).", CL, ageCL);
+                System.out.printf("Coleman-Liau index: %.2f (about %d-year-olds).\n", CL, ageCL);
                 break;
             case "all":
                 ARI = computeARIScore();
