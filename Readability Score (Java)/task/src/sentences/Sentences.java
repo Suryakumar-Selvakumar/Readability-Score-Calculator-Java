@@ -110,7 +110,7 @@ public class Sentences {
                         Characters: %d
                         Syllables: %d
                         Polysyllables: %d
-                        Enter the score you want to calculate (ARI, FK, SMOG, CL, all):""",
+                        Enter the score you want to calculate (ARI, FK, SMOG, CL, all):\s""",
                 totalWordCount, sentences.size(), totalCharCount, syllablesCount, polysyllablesCount);
     }
 

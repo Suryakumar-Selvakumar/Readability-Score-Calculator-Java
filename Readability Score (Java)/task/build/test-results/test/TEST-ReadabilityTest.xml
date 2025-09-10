@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ReadabilityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-07T04:23:04" hostname="surya" time="0.041">
+<testsuite name="ReadabilityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-10T15:10:50" hostname="surya" time="0.04">
   <properties/>
-  <testcase name="start" classname="ReadabilityTest" time="0.041"/>
+  <testcase name="start" classname="ReadabilityTest" time="0.04"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 Words: 108
@@ -9,7 +9,7 @@ Sentences: 6
 Characters: 580
 Syllables: 197
 Polysyllables: 21
-Enter the score you want to calculate (ARI, FK, SMOG, CL, all):> all
+Enter the score you want to calculate (ARI, FK, SMOG, CL, all): > all
 
 automated Readability Index: 12.86 (about 18-year-olds).
 Flesch-Kincaid readability tests: 12.95 (about 18-year-olds).
@@ -19,19 +19,19 @@ Coleman-Liau index: 14.13 (about 22-year-olds).
 This text should be understood in average by 20.00-year-olds.
 ?[1;31m
 Start test 2?[0m
-Words: 139
+Words: 137
 Sentences: 14
 Characters: 687
-Syllables: 218
+Syllables: 216
 Polysyllables: 18
-Enter the score you want to calculate (ARI, FK, SMOG, CL, all):> all
+Enter the score you want to calculate (ARI, FK, SMOG, CL, all): > all
 
-automated Readability Index: 6.81 (about 12-year-olds).
-Flesch-Kincaid readability tests: 6.79 (about 12-year-olds).
+automated Readability Index: 7.08 (about 13-year-olds).
+Flesch-Kincaid readability tests: 6.83 (about 12-year-olds).
 Simple Measure of Gobbledygook: 9.61 (about 15-year-olds).
-Coleman-Liau index: 10.28 (about 16-year-olds).
+Coleman-Liau index: 10.66 (about 16-year-olds).
 
-This text should be understood in average by 13.75-year-olds.
+This text should be understood in average by 14.00-year-olds.
 ?[1;31m
 Start test 3?[0m
 Words: 180
@@ -39,7 +39,7 @@ Sentences: 13
 Characters: 982
 Syllables: 320
 Polysyllables: 35
-Enter the score you want to calculate (ARI, FK, SMOG, CL, all):> all
+Enter the score you want to calculate (ARI, FK, SMOG, CL, all): > all
 
 automated Readability Index: 11.19 (about 17-year-olds).
 Flesch-Kincaid readability tests: 10.79 (about 16-year-olds).

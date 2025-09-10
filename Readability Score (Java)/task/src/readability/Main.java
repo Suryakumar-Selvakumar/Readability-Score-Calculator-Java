@@ -14,7 +14,10 @@ public class Main {
 
         StringBuilder text;
         try {
-            text = new StringBuilder(readFileText(args[0]).replaceAll("\\. ", "."));
+            text = new StringBuilder(readFileText(args[0]).
+                    replaceAll("\\. ", ".").
+                    replaceAll("\\? ", "?").
+                    replaceAll("! ", "!"));
         } catch (IOException e) {
             System.out.println("Failed to read file: " + e.getMessage());
             return;
