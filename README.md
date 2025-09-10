@@ -26,7 +26,8 @@ was built incrementally, with each stage adding new functionality:
 
 ## Demo
 
-<video width="1920" height="1080" align="center" src=""></video>
+<video width="1920" height="1080" align="center" src="https://github.com/user-attachments/assets/4c577544-09c1-4523-87cd-24d7c34f51c1"></video>
+
 
 ## Takeaway
 
