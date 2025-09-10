@@ -150,7 +150,7 @@ public class Sentences {
                 ageCL = getAgeRange(CL);
                 double averageAge = (ageARI + ageFK + ageSMOG + ageCL) / 4.0;
                 System.out.printf("""
-                        automated Readability Index: %.2f (about %d-year-olds).
+                        Automated Readability Index: %.2f (about %d-year-olds).
                         Flesch-Kincaid readability tests: %.2f (about %d-year-olds).
                         Simple Measure of Gobbledygook: %.2f (about %d-year-olds).
                         Coleman-Liau index: %.2f (about %d-year-olds).
